@@ -1,0 +1,16 @@
+<div>
+    <header >
+      <button (click)="logout()" >Logout</button>
+    </header>
+    <div  >
+      <h2>Hey {{ name.auth.displayName }}!</h2>
+
+      
+    </div>
+    <div *ngFor="let item of items | async" (click)="goToDetailPage(album)">
+        <div>
+          <h3> {{item | json}}</h3>
+        </div>
+      </div>
+    
+</div>
