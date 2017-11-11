@@ -8,7 +8,7 @@ import { EmailComponent } from './email/email.component';
 import { MembersComponent } from './members/members.component';
 import { AuthGuard } from './auth.service';
 import { routes } from './app.routes';
-
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 /*export const firebaseConfig = {
   apiKey: "AIzaSyALCjLiSkBqDUGI7z6rAn8JxQg1tiFo7M0",
