@@ -14,15 +14,20 @@ export class MembersComponent implements OnInit {
   name: any;
   state: string = '';
   items: FirebaseListObservable<any[]>;
+  arrayitems=[];
 
   constructor(public af: AngularFire,private router: Router) {
     this.items = af.database.list('list');
-
+ 
+   
+console.log(this.arrayitems);
     this.af.auth.subscribe(auth => {
       if(auth) {
         this.name = auth;
       }
     });
+
+
 
   }
 
