@@ -1,0 +1,85 @@
+.bannervideo
+{
+    margin: 26px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 110px;
+}
+.bannervideo h3>span{
+    font-weight: bold;
+}
+.thumb_description
+{
+   
+    text-align: center;
+}
+.thumbimages
+{
+    margin: 16px
+}
+header button{
+    margin-top: 17px;
+    padding: 5px 20px;
+    float: right;
+    background-color: darkblue;
+    border: none;
+}
+header h3{
+    
+        text-align: center;
+        margin: 0px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-top: 24px;
+        display: inline-block;
+    
+}
+
+header{
+    
+        background-color: dodgerblue;
+        height: 70px;
+        color: white;
+        text-align: center;
+
+    
+}
+
+.bannervideo video {
+    height: 600px;
+    width: 1080px;
+
+}
+#videogallery{
+    background-color: #f7f7fa;
+}
+.wrapper{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 0px 0px 20px 0px;
+    color: #29303b;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.57);
+}
+.wrapper:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.57);
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.57);
+}
+.wrapper video{
+    width: 100%;
+}
+
+.padding10{
+    padding: 0px 25px
+}
+img{
+    width: 58%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
