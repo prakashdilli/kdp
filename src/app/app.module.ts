@@ -8,6 +8,7 @@ import { EmailComponent } from './email/email.component';
 import { MembersComponent } from './members/members.component';
 import { AuthGuard } from './auth.service';
 import { routes } from './app.routes';
+import { HomeComponent } from './home/home.component';
 //import { FlexLayoutModule } from "@angular/flex-layout";
 
 /*export const firebaseConfig = {
@@ -32,7 +33,7 @@ export const firebaseConfig = {
   declarations: [
     AppComponent, 
     EmailComponent,  
-    MembersComponent
+    MembersComponent, HomeComponent
   ],
   imports: [
     BrowserModule,

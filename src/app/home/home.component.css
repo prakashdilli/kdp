@@ -1,0 +1,95 @@
+.baner-items
+{
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: white;
+}
+.heading1
+{
+    font-size: 36px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 9px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.heading3
+{
+    font-size: 31px;
+    padding-bottom: 5px;
+}
+.heading2
+{
+    color: blue;
+    font-size: 52px;
+    font-style: italic;
+    font-family: serif;
+}
+.overall
+{
+    background-color: #F1F4F8;
+}
+.youtube
+{
+    text-align: center;
+    margin-top: 29px;
+}
+.loginimage img
+{
+    width: 500px;
+    margin: 29px;
+    display: inline;
+    
+}
+.loginimage
+{
+    text-align: center;    
+}
+.amount
+{
+    text-align: center;
+}
+.coursehead 
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+.coursehead h1
+{
+    font-size: 38px;
+    line-height: 55px;
+    letter-spacing: 1px;
+}
+.headerborder
+{
+    padding: 0px;
+    margin: 0px auto;
+    background-color: rgb(96, 96, 96);
+    outline: none;
+    width: 100%;
+    max-width: 100%;
+    border-color: rgb(160, 214, 243);
+}
+.cou-item
+{
+    text-align: left;
+    font-size: 23px;
+    padding: 12px;
+
+}
+.pay-head
+{
+    text-align: center;
+}
+.paperimages
+{
+    text-align: center;
+}
+.paperimages img
+{
+    padding: 23px;
+}
+.log-btn
+{
+    margin: 12px;
+}
