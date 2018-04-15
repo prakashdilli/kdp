@@ -9,6 +9,7 @@ import { MembersComponent } from './members/members.component';
 import { AuthGuard } from './auth.service';
 import { routes } from './app.routes';
 import { HomeComponent } from './home/home.component';
+import { CoursesComponent } from './courses/courses.component';
 //import { FlexLayoutModule } from "@angular/flex-layout";
 
 /*export const firebaseConfig = {
@@ -33,7 +34,9 @@ export const firebaseConfig = {
   declarations: [
     AppComponent, 
     EmailComponent,  
-    MembersComponent, HomeComponent
+    MembersComponent, 
+    HomeComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,

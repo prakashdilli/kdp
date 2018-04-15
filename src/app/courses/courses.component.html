@@ -1,0 +1,50 @@
+<div class="courses">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="header">
+                    <div class="logout">
+                        <!-- <img src="http://www.icons101.com/icon_ico/id_79389/user.ico" alt=""> -->
+                        <button type="button" class="btn btn-primary" (click)="logout()">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sidebar-wrapper">
+                <div class="sidebar">
+                    <div class="title">
+                        <h3>Kindle publishing</h3>
+                    </div>
+                    <div class="courseDetails">
+                        <h3>Start Here</h3>
+                        <div *ngFor="let item of items | async"  >
+                                <div class="content" *ngIf="item.download" #styleElementComapany >
+                                    <a [href]="item.videourl">
+                                            <span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                                            <p>{{item.description}}</p>
+                                    </a>   
+                                    </div>
+                            <div class="content" *ngIf="!item.download" #styleElementComapany (click)="linkview(item, styleElementComapany)">
+                                <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+                                <p>{{item.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                <div class="videoContent">
+                    <div class="videoTitle">
+                        <p  *ngIf="firstdata">
+                            <span class="glyphicon glyphicon-file" aria-hidden="true"></span> {{firstdata.description}}</p>
+                        <div class="video" *ngIf="firstdata">
+                            <video width="1000px" height="613px" [src]="firstdata.videourl" type="video/mp4" controls></video>
+                            <!-- <video   width="640px" height = "360px" [src] = "firstdata.videourl"  type="video/mp4" controls></video> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

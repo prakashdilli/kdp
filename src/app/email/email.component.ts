@@ -36,7 +36,7 @@ export class EmailComponent implements OnInit {
       }).then(
         (success) => {
         console.log(success);
-        this.router.navigate(['/members']);
+        this.router.navigate(['/courses']);
       }).catch(
         (err) => {
         console.log(err);
