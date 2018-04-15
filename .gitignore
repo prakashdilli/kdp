@@ -3,6 +3,7 @@
 # compiled output
 /dist
 onlinemoney.tar.gz
+onlinemoney1.tar.gz
 /tmp
 
 # dependencies
